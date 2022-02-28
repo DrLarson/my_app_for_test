@@ -1,4 +1,4 @@
-name: pull-request-echo
+name: pull request echo
 on: [pull_request]
   types:
     - opened
