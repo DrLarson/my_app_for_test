@@ -1,6 +1,7 @@
 name: pull request echo
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "PR opened"
+  PR-opened-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "PR opened"
