@@ -1,0 +1,10 @@
+name: pull request echo
+on: 
+  pull_request:
+    types:
+      - opened
+jobs:
+  PR-opened-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "PR opened"
