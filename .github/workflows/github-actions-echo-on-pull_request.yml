@@ -1,5 +1,7 @@
 name: pull request echo
-on: [push]
+on: [pull_request]
+  types:
+    - opened
 jobs:
   PR-opened-job:
     runs-on: ubuntu-latest
