@@ -8,6 +8,7 @@ public class App
 {
 
 	public void aux(){
+		String API_KEY = "ghp_111111112222222233333333444444441234";
 		Res res = new Res();
 	}
     	//API_KEY is xx
